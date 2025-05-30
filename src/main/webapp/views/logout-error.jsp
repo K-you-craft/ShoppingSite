@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ include file="../header.html"%>
 
-ログイン名またパスワードが違います。
+すでにログアウトしました。
 
 <a href="login-in.jsp">ログインページへ</a>
 

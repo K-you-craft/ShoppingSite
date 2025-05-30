@@ -2,6 +2,8 @@
     pageEncoding="UTF-8"%>
 <%@ include file="../header.html"%>
 
-こんにちは、${users.last_name }さん
+ログアウトしました。
+
+<a href="login-in.jsp">ログインページへ</a>
 
 <%@ include file="../footer.html"%>

@@ -3,23 +3,33 @@
 <%@ include file="../header.html"%>
 
 <form action="login-in" method="post">
-	<p>
-		ID<br>
-		<input type="text" name="member_id">
-	</p>
-	<p>
-		パスワード<br>
-		<input type="password" name="password">
-	</p>
-	<p>
-		<input type="submit" value="ログイン">
-	</p>
+	<table border="1" style="border-collapse: collapse;">
+		<tr>
+			<td colspan="2" style="text-align: center;">
+					<h2>ログイン</h2>
+			</td>
+		</tr>
+
+		<tr>
+			<th><p>ID</p></th>
+			<td><input type="text" name="member_id" required></td>
+		</tr>
+
+		<tr>
+			<th><p>パスワード</p></th>
+			<td><input type="password" name="password" required></td>
+		</tr>
+
+		<tr>
+			<td colspan="2" style="text-align: center;"><p>
+					<input type="submit" value="ログイン">
+				</p></td>
+		</tr>
+	</table>
 </form>
 
-<form action="">
-	<p>
-		<input type="submit" value="新規会員登録">
-	</p>
-</form>
+<a href="register.jsp">
+	<p>新規会員登録</p>
+</a>
 
 <%@ include file="../footer.html"%>

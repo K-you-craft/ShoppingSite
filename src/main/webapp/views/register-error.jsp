@@ -2,8 +2,6 @@
     pageEncoding="UTF-8"%>
 <%@ include file="../header.html"%>
 
-ログイン名またパスワードが違います。
-
-<a href="login-in.jsp">ログインページへ</a>
+新規登録に失敗しました！
 
 <%@ include file="../footer.html"%>

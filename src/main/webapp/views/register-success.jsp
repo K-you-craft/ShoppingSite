@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ include file="../header.html"%>
 
-ログイン名またパスワードが違います。
+新規登録に成功しました！
 
 <a href="login-in.jsp">ログインページへ</a>
 
